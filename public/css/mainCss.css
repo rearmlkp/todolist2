@@ -1,0 +1,216 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
+.welcome {
+	width: 95%;
+	background: yellow;
+	margin: 0 auto;
+	border: solid 2px black;
+	border-radius: 20px;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 50px;
+}
+.middle {
+	width: 95%;
+	margin: 10px auto;
+	background: green;
+	border: solid 2px black;
+	border-radius: 20px;
+	display: inline-block;
+	margin-left: 2.5%;
+}
+.todo-list-container {
+	float: left;
+	margin-left: 5%;
+	width: 40%;
+}
+.todo-list-container h2 {
+	font-family: 'Slabo 27px', serif;
+	color: #CF0000;
+	font-weight: 700;
+}
+.todo-list-container div {
+	display: inline-block;
+	border-radius: 10px;
+	padding: 1px 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.todo-list-container div h3 {
+	font-family: 'Lobster', cursive;
+}
+.todo-list-container div p {
+	margin-left: 30px;
+}
+.todo-list-container div a {
+	color: white;
+	float: right;
+	font-size: 30px;
+	margin-top: -2em;
+}
+.todo-1 {
+	background: #FF3300;
+}
+.todo-1 p {
+	color: #CCCCB2;
+}
+.todo-1 h3 {
+	color: white;
+}
+.todo-2 {
+	background: #663300;
+}
+.todo-2 p {
+	color: #CCCCB2;
+}
+.todo-2 h3 {
+	color: white;
+}
+.todo-3 {
+	background: #009933;
+}
+.todo-3 p {
+	color: #CCCCB2;
+}
+.todo-3 h3 {
+	color: white;
+}
+.todo-4 {
+	background: #3333FF;
+}
+.todo-4 p {
+	color: #CCCCB2;
+}
+.todo-4 h3 {
+	color: white;
+}
+.todo-5 {
+	background: white;
+}
+.todo-5 p {
+	color: black;
+}
+.todo-5 h3 {
+	color: black;
+}
+.todo-5 a {
+	color: black;
+}
+.calendar-container {
+	float: left;
+	margin-left: 5%;
+	width: 27%;
+}
+.calendar-container h2 {
+	font-family: 'Slabo 27px', serif;
+	color: #CF0000;
+	font-weight: 700;
+}
+.calendar-container div input[type="text"] {
+	font-family: 'Slabo 27px', serif;
+	color: #CF0000;
+	font-weight: 700;
+	width: 100%;
+}
+.calendar-container div textarea {
+	font-family: 'Slabo 27px', serif;
+	color: black;
+	width: 100%;
+}
+.calendar-container select {
+	font-family: 'Slabo 27px', serif;
+	width: 100%;
+}
+
+.calendar-container input[type="submit"] {
+	font-family: 'Slabo 27px', serif;
+	width: 100%;
+}
+
+.op1 {
+	color: white;
+	background: #FF3300;
+}
+.op2 {
+	color: white;
+	background: #663300;
+}
+.op3 {
+	color: white;
+	background: #009933;
+}
+.op4 {
+	color: white;
+	background: #3333FF;
+}
+.op5 {
+	color: black;
+	background: white;
+}
+
+/* calendar */
+table.calendar {
+	border-left: 1px solid #999;
+	background: white;
+}
+tr.calendar-row {
+}
+td.calendar-day {
+	min-height: 80px;
+	font-size: 11px;
+	position: relative;
+}
+* html div.calendar-day {
+	height: 80px;
+}
+td.calendar-day:hover {
+	background: #eceff5;
+}
+td.calendar-day-np {
+	background: #eee;
+	min-height: 80px;
+}
+* html div.calendar-day-np {
+	height: 80px;
+}
+td.calendar-day-head {
+	background: #ccc;
+	font-weight: bold;
+	text-align: center;
+	width: 120px;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+}
+div.day-number {
+	background: #999;
+	padding: 5px;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin: -5px -5px 0 0;
+	width: 20px;
+	text-align: center;
+}
+
+div.day-number-today {
+	background: red;
+	padding: 5px;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin: -5px -5px 0 0;
+	width: 20px;
+	text-align: center;
+}
+
+/* shared */
+td.calendar-day, td.calendar-day-np {
+	width: 120px;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+}
